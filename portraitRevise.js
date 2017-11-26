@@ -37,7 +37,8 @@ var clearCanvasObj = {
 	canvasId: 0,
 	isDrag: false,
 	isStretch: false,
-	isTimeout: false
+	isTimeout: false,
+	
 }
 function resetClearCanvasObj() {
 	return {

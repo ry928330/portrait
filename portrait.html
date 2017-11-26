@@ -21,30 +21,19 @@
             </div>
         </div>
 		<!-- <img class="imgContainer" id="imgContainer" src="./unload.png"> -->
-		<div class="smallPicGroups">
-			<div class="smallPicContainer_60">
-				<canvas class="smallPic_60" width="60" height="60" id="smallPic_60">
+		<div class="smallPicGroups" >
+			<div class="smallPicContainer">
+				<canvas class="smallPic" width="100" height="200" id="smallPic" style="border:1px solid #9baab3;">
 				
 				</canvas>
-				<div class="pixel">60x60像素</div>
-			</div>
-			<div class="smallPicContainer_120">
-				<canvas class="smallPic_120" width="300" height="300" id="smallPic_120">
-					
-				</canvas>
-				<div class="pixel">300x300像素</div>
+				<div class="pixel">100X200像素</div>
 			</div>
 		</div>
-		<div class="diyPortrait">
+		<div class="diyPortrait" style="display:none;">
 			<label>宽度：</label><input type="text" name="portraitWidth" class="portraitWidth">
 			<label>高度：</label><input type="text" name="portraitHeight" class="portraitHeight"> 
-			<span>自定义头像</span>
+			<span>自定义头像宽高比</span>
 		</div>
-		<!-- <div class="portraitButtonGroups">
-			<div class="portraitCancel" id="portraitCancel">取消</div>
-			<div class="portraitConfig" id="portraitConfig">确认</div>
-		</div> -->
-		<canvas id="screenCanvas" width="180" height="180" style="visibility:hidden;"></canvas>
 	</div>
 	
 	<script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
