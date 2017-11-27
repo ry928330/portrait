@@ -338,4 +338,6 @@ function reset() {
     initialImgObj.changedX0 = 0;
     initialImgObj.changedY0= 0;
     initialImgObj.scale=0;
+
+    $(document.body).unbind();
 }
